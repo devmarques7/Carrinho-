@@ -1,0 +1,111 @@
+*{
+    font-family: 'Inter', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+  
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:500px;
+  height: 350px;
+}
+.homePage{
+    display: flex;
+    background-color: #000;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.item{
+    display: flex;
+    color: #fff;
+    margin-left: 10px;
+    opacity: 80%;
+}
+.valor{
+    display: flex;
+    color: #fff;
+    margin-right: 10px;
+    opacity: 80%;
+}
+section{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+li{
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+li:hover{
+    opacity: 60%;
+    transition: 0.3s;
+}
+
+.nomeProduct{
+    display: flex;
+    margin-left: 10px;
+    font-size: medium;
+}
+.precoProduct{
+    margin-right: 10px;
+    opacity: 60%;
+}
+.Total{
+    display: flex;
+    flex-direction: row;
+    background-color: #d4d4d4;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.pTotal{
+    display: flex;
+    margin-left: 10px;
+    opacity: 80%;
+}
+.valorTotal{
+    margin-right: 10px;
+    opacity: 60%;
+}
+button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #28b586;
+}
+.finalizarCompras{
+    font-size: large;
+    color: #fff;
+}
+button:hover{
+    opacity: 75%;
+    transition: 0.3s;
+}
